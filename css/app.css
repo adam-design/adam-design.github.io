@@ -1,19 +1,24 @@
 
 @import url(http://fonts.googleapis.com/css?family=Indie+Flower);
 
-body{ margin-top:10%;
-    margin-bottom: 10%;
-    margin-right:10%;
-    margin-left:10%;
-    border-box: 10%;
-    background-image: url('img/Red.jpeg')
+.adam{ 
+    background-image: url('img/Predicting the Future.gif');
+    background-size: 90%;
     
 }
 
 p, h1{
     font-family: 'Indie Flower', cursive;
-    text-align:center;
     
+    
+}
+
+nav{
+    margin-left: auto;
+    width: 100%;
+}
+h2{
+     font-family: 'Indie Flower', cursive;
 }
 
 img{
