@@ -1,0 +1,19 @@
+img {
+    
+    Display:block;
+    Float: left;
+    width: 75%;
+    margin: 0 1%;
+    
+}
+
+html {
+    text-align:center;
+    margin:0 auto;
+
+}
+
+.clear {
+    width:100%;
+    clear:both;
+}
