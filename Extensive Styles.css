@@ -1,0 +1,38 @@
+<body class="vibe-active" style="zoom: 1;">
+<div style="display:none" id="vibe-overlay"></div>
+<!-- Vibe-Overlay -->
+<div style="display:none" id="vibe-connect-modal">
+<a href="#" id="vibe-connect-close">x</a>
+<div id="vibe-linkedin-modal">
+    <h3>Connect via LinkedIn</h3>
+
+<div style="display:none">
+    <label>Subject</label>
+    <input id="vibe-linkedin-subject" type="text">
+</div>
+<!-- Hide -->
+<label>Message</label>
+<textarea style="padding:8px;" rows="8" id="vibe-linkedin-content">
+</textarea>
+<br>
+<button type="submit">Connect</button>		</div>
+<!-- Vibe Modal -->	</div>
+<!-- Vibe Connect Modal -->
+
+<div style="display:none" class="vibe-content"></div>
+
+<div class="imageHolder" style="top: 0px; visibility: visible; position: fixed; overflow: hidden; height: 800px; width: 1239px; transform: translate3d(-16px, -206px, 0px); left: 0px;">
+
+<img src="Test.jpg" style="position: absolute; visibility: visible; max-width: none; height: 697px; width: 1239px; transform: translate3d(0px, 165px, 0px);"></div>
+
+<div class="imageHolder" style="top: 0px; visibility: hidden; position: fixed; overflow: hidden; height: 550px; width: 1239px; transform: translate3d(-16px, -532px, 0px); left: 0px;">
+
+<img src="images/bg4.jpg" style="position: absolute; visibility: hidden; max-width: none; height: 697px; width: 1239px; transform: translate3d(0px, 426px, 0px);"></div>
+
+<div class="imageHolder" style="top: 0px; visibility: hidden; position: fixed; overflow: hidden; height: 550px; width: 1239px; transform: translate3d(-16px, -536px, 0px); left: 0px;">
+
+<img src="http://streetsmartbrand.com/images/bg3.jpg" style="position: absolute; visibility: hidden; max-width: none; height: 697px; width: 1239px; transform: translate3d(0px, 429px, 0px);"></div>
+
+<div class="imageHolder" style="top: 0px; visibility: hidden; position: fixed; overflow: hidden; height: 550px; width: 1239px; transform: translate3d(-16px, -547px, 0px); left: 0px;">
+
+<img src="images/bg2.jpg" style="position: absolute; visibility: hidden; max-width: none; height: 697px; width: 1239px; transform: translate3d(0px, 438px, 0px);"></div>

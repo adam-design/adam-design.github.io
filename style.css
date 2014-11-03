@@ -1,7 +1,10 @@
 body,html {
     
     margin: 0;
+    color: #565051
     
+}
+
 }
 section {
     overflow:hidden;
@@ -9,7 +12,8 @@ section {
     position:relative;
     background:#fff;
 }
-#about {
+#story {
+    text-decoration:none;
     
 }
 
@@ -64,7 +68,7 @@ nav ul li {
     margin-right: 30px;
 }
 li a {
-				text-decoration: bold;
+				text-decoration: none;
                 list-style: inline;
                 color: #524A8D;
                 font-family: 'Montserrat', sans-serif;
@@ -72,6 +76,7 @@ li a {
                 font-size: 20px;
                 padding: 10px;
                 cursor:pointer;
+                
 }
 li a:hover,li a.active{
     color: #FFF;
@@ -108,63 +113,33 @@ li a:hover,li a.active{
 }
 
 
-/*bubble START*/
 
-.bubble{
-    position:relative;
-    height:300px;
-    margin:550px 0;
-}
-
-.bubble.left{
-    margin-right:50%;
-}
-
-.bubble.right{
-    margin-left:50%;
-}
-
-/*bubble END*/
-
-
-#flipbook {
-    position:absolute;
-    margin:0 auto;
-    bottom:0px;
-    width: 100%;
-    
-}
-#flipbook img {
-    position: fixed;
-    margin:0 auto;
-    bottom:0px;
-    display: none;
-}
-#flipbook img.scroll{
-    display:block;
-    position:relative;
-}
-#mobile #flipbook>img{
-    display:block;
-    margin:0 auto;
-}
-#mobile #resume,#mobile #portfolio,#mobile #contact{
-    z-index:5;
-}
-
-/*resume setup START */
-
-#resume {
-    background-color:#41396D;
-    color:#fff;
-    
-}
 
 img.icon1{
     
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+    border: 0;
+    border-radius: 50%;
+    
+    
+}
+
+img.icon2{
+    display:block;
+    width: 25%;
+    border: 0;
+    border-radius: 50%;
+
+    
+}
+
+img.c3{
+    display:block;
+    border: 0;
+    border-radius: 50%;
 }
 
 a.mouseoverdownload {
@@ -330,98 +305,8 @@ h13 {
     
 }
 
-/*resume setup END */
-
-/*portfolio setup START */
-
-#tvcontainer {
-    background: url('img/portfolio/projects/yobamba/yobamba-tv.png') no-repeat top left transparent;
-    width: 850px; /* Adjust TV image width */
-    height: 650px; /* Adjust TV image height */
-    margin: 0px auto;
-    position: relative;
-}
-#tvcontainer video {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 0px;
-}
-
-/*portfolio setup END */
-
-/*contact setup START */
-
-#contact {
-    background-color:#41396D;
-    color:#fff;
-}
-
-a.mouseoverchat {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:82px;
-    height:82px;
-    background-position:0px 0px;
-}
-a.mouseoverchat:hover {
-    background-position:0px 82px;
-}
-
-a.mouseoverup {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:99px;
-    height:139px;
-    background-position:0px 0px;
-}
-a.mouseoverup:hover {
-    opacity:.7;
-}
-
-/*contact setup END */
-
-img.icon2{
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img.icon3{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img.icon4{
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
-#textright {
-    position:relative;
-    float: right;
-    width: 30%;
-    padding-top: 500px;
-    margin-right: 100px;
-    text-align: justify;
-    word-spacing: 2px;
-    line-height: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#education {
-    float: left;
-    width: 40%;
-    padding: 20px;
-    text-align: justify;
-}
-
-#summary p{
-    padding:10px 30%;
-}
 
 #skills {
     float: right;
@@ -430,98 +315,28 @@ img.icon4{
     text-align: justify;
 }
 
-#portfolio {
-    text-align: center;
-    
-}
-#isotope-filters{
-    list-style:none;
-    margin-left:-80px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight:700;
-    font-size:20px;
-    
-    
-    
+.jumbo {
+    position:fixed;
+    margin-top: 1 em;
 }
 
-#isotope-filters>li{
-    display:inline;
-    cursor:pointer;
-    padding-left:20px;
-}
-#isotope-filters>li:hover {
-				color:#9A8CDD;
-}
-
-#isotope-container {
-    margin: 0 auto;
-    text-align: center;
-}
-
-#isotope-container>.isotope-item{
-    float:left;
-    width:300px;
-    padding:40px;
-    
-}
-
-#isotope-container>.isotope-item:hover{
-    opacity:.5;
-    
-}
-/**** Isotope filtering ****/
-.isotope-item {
-    z-index: 2;
-}
-.isotope-hidden.isotope-item {
-    pointer-events: none;
-    z-index: 1;
-}
-/**** Now, back to the normal styling ****/
-.project {
-    border-top:10px solid;
-    border-color: #8E76D8;
-    background-color: #FFF;
-    text-align: center;
+#menu {
     position: fixed;
-    top: 0;
-    left:0;
-    width: 100%;
-    height:100%;
-    z-index:2000;
-    overflow-y:scroll;
-    display: none;
-}
-.project section {/* edit this section to get the videos to work the way you want*/
-    text-align: center;
-    width: auto;
-    margin: auto 200px;
-}
-.project ul li {
-    list-style: none;
-    text-align: left;
-    margin-bottom: 20px;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
 }
 
-.close {
-    position: fixed;
-    z-index:2001;
-    right: 10px;
-    top: 10px;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;  cursor: pointer;
-    border-style:solid white;
-    margin-right: 100px;
-    font-size: 40px;
-    color: #8E76D8;
-    font-weight:bold;
+.box {
+
+    box-shadow: 0 0 10px rgba(0,0,0,.75);
+    position: relative;
+    overflow: hidden;
+    z-in
+}
+body {
+    background: #565051;
 }
 
-.close:hover {
-    opacity:.5;
-}
 
-#contact p{
-    padding:10px 30%;
-}
