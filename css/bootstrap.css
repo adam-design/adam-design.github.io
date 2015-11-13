@@ -7520,3 +7520,15 @@ button.close {
 h1 {
     text-shadow: 1px -1px rgba(0, 0, 0, .2);
 }
+
+h2 {
+    text-shadow: 1px -1px rgba(0, 0, 0, .2);
+}
+
+p {
+    text-shadow: 1px -1px rgba(0, 0, 0, .2);
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
